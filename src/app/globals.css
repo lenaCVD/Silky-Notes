@@ -91,3 +91,13 @@
     transition: none !important;
   }
 }
+[data-code-block] {
+  scrollbar-width: thin;
+  scrollbar-color: var(--blue-deep) var(--chocolate-dark);
+}
+[data-code-block]::-webkit-scrollbar { width: 10px; height: 10px; }
+[data-code-block]::-webkit-scrollbar-track { background: var(--chocolate-dark); border-radius: 999px; margin: 6px; }
+[data-code-block]::-webkit-scrollbar-thumb { background: var(--blue-deep); border-radius: 999px; border: 2px solid var(--chocolate-dark); }
+[data-code-block]::-webkit-scrollbar-thumb:hover { background: var(--blue); }
+[data-code-block]::-webkit-scrollbar-thumb:active { background: var(--butter-deep); }
+[data-code-block]::-webkit-scrollbar-corner { background: var(--chocolate-dark); }
